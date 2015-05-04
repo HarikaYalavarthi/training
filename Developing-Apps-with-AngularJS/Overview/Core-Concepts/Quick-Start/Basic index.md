@@ -1,11 +1,2 @@
-```
-<!doctype html>
-<html lang="en">
-<head>
-<title>My First AngularJS App</title>
-</head>
-<body >
-<h1>My First AngularJS App</h1>
-</body>
-</html>
-```
+<p data-height="266" data-theme-id="14134" data-slug-hash="doYbzM" data-default-tab="result" data-user="ajit-kumar-azad" class='codepen'>See the Pen <a href='http://codepen.io/ajit-kumar-azad/pen/doYbzM/'>doYbzM</a> by Ajit Kumar (<a href='http://codepen.io/ajit-kumar-azad'>@ajit-kumar-azad</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
