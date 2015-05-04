@@ -1,5 +1,4 @@
-Introduction to AngularJS
-======
+# Introduction to AngularJS
 
 Goal:
 * We want to build dynamic web applications.
