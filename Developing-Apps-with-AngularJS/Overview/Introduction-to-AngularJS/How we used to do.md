@@ -1,1 +1,1 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Text")
+![alt text](https://github.com/ajit-kumar-azad/training/raw/master/Developing-Apps-with-AngularJS/images/howwedo.png "How we used to do?")
