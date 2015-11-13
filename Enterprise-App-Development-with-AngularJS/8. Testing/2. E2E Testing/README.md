@@ -33,17 +33,16 @@ Open a new command line or terminal window and create a clean folder for testing
 
 Protractor needs two files to run, a **spec file** and a **configuration file**. 
 
-Let's start with a simple test that navigates to an example AngularJS application and checks its title. We’ll use the Super Calculator application at [http://juliemr.github.io/protractor-demo/](http://juliemr.github.io/protractor-demo/).
-
+Let's start with a simple test that navigates to an example AngularJS application and checks its title. 
 Copy the following into spec.js:
 
 ```javascript
 // spec.js
 describe('Protractor Demo App', function() {
   it('should have a title', function() {
-    browser.get('http://juliemr.github.io/protractor-demo/');
+    browser.get('url');
 
-    expect(browser.getTitle()).toEqual('Super Calculator');
+    expect(browser.getTitle()).toEqual('title of you app');
   });
 });
 ```
@@ -78,7 +77,7 @@ Now let's modify the test to interact with elements on the page. Change spec.js 
 // spec.js
 describe('Protractor Demo App', function() {
   it('should add one and two', function() {
-    browser.get('http://juliemr.github.io/protractor-demo/');
+    browser.get('url');
     element(by.model('first')).sendKeys(1);
     element(by.model('second')).sendKeys(2);
 
@@ -97,7 +96,6 @@ This uses the globals `element` and `by`, which are also created by Protractor. 
   - `by.id('gobutton')` to find the element with the given id. This finds `<button id="gobutton">`.
   - `by.binding('latest')` to find the element bound to the variable `latest`. This finds the span containing `{{latest}}`
 
-  [Learn more about locators and ElementFinders](/docs/locators.md).
 
 Run the tests with
 
@@ -119,7 +117,7 @@ describe('Protractor Demo App', function() {
   var latestResult = element(by.binding('latest'));
 
   beforeEach(function() {
-    browser.get('http://juliemr.github.io/protractor-demo/');
+    browser.get('url');
   });
 
   it('should have a title', function() {
@@ -161,85 +159,6 @@ exports.config = {
 }
 ```
 
-Try running the tests again. You should see the tests running on Firefox instead of Chrome. The `capabilities` object describes the browser to be tested against. For a full list of options, see [the reference config file](/docs/referenceConf.js).
-
-You can also run tests on more than one browser at once. Change conf.js to:
-
-```js
-// conf.js
-exports.config = {
-  framework: 'jasmine',
-  seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['spec.js'],
-  multiCapabilities: [{
-    browserName: 'firefox'
-  }, {
-    browserName: 'chrome'
-  }]
-}
-```
-
 Try running once again. You should see the tests running on Chrome and Firefox simultaneously, and the results reported separately on the command line.
 
-Step 4 - lists of elements
---------------------------
 
-Let's go back to the test files. Feel free to change the configuration back to using only one browser.
-
-Sometimes, you will want to deal with a list of multiple elements. You can do this with `element.all`, which returns an ElementArrayFinder. In our calculator application, every operation is logged in the history, which is implemented on the site as a table with `ng-repeat`. Let's do a couple of operations, then test that they're in the history. Change spec.js to:
-
-```js
-// spec.js
-describe('Protractor Demo App', function() {
-  var firstNumber = element(by.model('first'));
-  var secondNumber = element(by.model('second'));
-  var goButton = element(by.id('gobutton'));
-  var latestResult = element(by.binding('latest'));
-  var history = element.all(by.repeater('result in memory'));
-
-  function add(a, b) {
-    firstNumber.sendKeys(a);
-    secondNumber.sendKeys(b);
-    goButton.click();
-  }
-
-  beforeEach(function() {
-    browser.get('http://juliemr.github.io/protractor-demo/');
-  });
-
-  it('should have a history', function() {
-    add(1, 2);
-    add(3, 4);
-
-    expect(history.count()).toEqual(2);
-
-    add(5, 6);
-
-    expect(history.count()).toEqual(0); // This is wrong!
-  });
-});
-```
-
-We've done a couple things here - first, we created a helper function, `add`. We've added the variable `history`. We use `element.all` with the `by.repeater` Locator to get an ElementArrayFinder. In our spec, we assert that the history has the expected length using the `count` method. Fix the test so that the second expectation passes.
-
-`ElementArrayFinder` has many methods in addition to `count`. Let's use `last` to get an ElementFinder that matches the last element found by the Locator. Change the test to:
-```js
-  it('should have a history', function() {
-    add(1, 2);
-    add(3, 4);
-
-    expect(history.last().getText()).toContain('1 + 2');
-    expect(history.first().getText()).toContain('foo'); // This is wrong!
-  });
-```
-
-Since the Calculator reports the oldest result at the bottom, the oldest addition (1 + 2) be the last history entry. We're using the `toContain` Jasmine matcher to assert that the element text contains "1 + 2". The full element text will also contain the timestamp and the result. 
-
-Fix the test so that it correctly expects the first history entry to contain the text "3 + 4".
-
-ElementArrayFinder also has methods `each`, `map`, `filter`, and `reduce` which are analogous to JavaScript Array methods. [Read the API for more details](http://angular.github.io/protractor/#/api?view=ElementArrayFinder).
-
-Where to go next
-----------------
-
-This should get you started writing tests. To learn more, see the documentation [Table of Contents](/docs/toc.md).
