@@ -22,10 +22,10 @@ The ngClick directive allows you to specify custom behavior when an element is c
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-click="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -50,10 +50,10 @@ The ngDblclick directive allows you to specify custom behavior on a dblclick eve
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-dblclick="expression">
 ...
-</ANY>
+</ANY>`
 
 
 ######Arguments:
@@ -81,10 +81,10 @@ The ngMousedown directive allows you to specify custom behavior on mousedown eve
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-mousedown="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -109,10 +109,10 @@ The ngMouseup directive allows you to specify custom behavior on mouseup event.
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-mouseup="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -137,10 +137,10 @@ The ngMouseenter directive allows you to specify custom behavior on mouseenter e
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-mouseenter="expression">
 ...
-</ANY>
+</ANY>`
 
 #####Arguments:
 
@@ -165,10 +165,10 @@ The ngMouseleave directive allows you to specify custom behavior on mouseleave e
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-mouseleave="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -193,10 +193,10 @@ The ngMousemove directive allows you to specify custom behavior on mousemove eve
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-mousemove="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -221,10 +221,10 @@ The ngMouseover directive allows you to specify custom behavior on mouseover eve
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-mouseover="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -250,10 +250,10 @@ The ngKeydown directive allows you to specify custom behavior on keydown event.
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-mouseover="expression">
 ...
- </ANY>
+ </ANY>`
 
 ######Arguments:
 
@@ -278,10 +278,10 @@ The ngKeyup directive allows you to specify custom behavior on keyup event.
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-Keyup="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -306,10 +306,10 @@ The ngKeypress directive allows you to specify custom behavior on keypress event
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-Keypress="expression">
 ...
-</ANY>
+</ANY>`
 
 ######Arguments:
 
@@ -340,17 +340,17 @@ if the input has continued to be invalid since the model will stay null.
 if the model is changed programmatically and not by a change to the input value.
 
 
-💡 Note: this directive requires ngModel to be present.
+`💡 Note: this directive requires ngModel to be present.`
 
 
 ######Usage:
 
 as attribute:
 
-<input
+`<input
 	ng-change="expression">
 ...
-</input>
+</input>`
 
 ######Arguments:
 
