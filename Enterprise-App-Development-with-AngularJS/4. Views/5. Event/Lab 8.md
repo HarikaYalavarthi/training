@@ -38,11 +38,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="WQLbrQ" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/WQLbrQ/'>WQLbrQ</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
+######Explanation:
 
-######Code-Snippet:
-
-http://codepen.io/walkingtree/pen/WQLbrQ#0
-
+In the above example,every time you click on the “Increament” button the “ng-Click” event is getting fired and the count gets updated by '+1' which is seen in the output.
 
 #####ng-Dblclick:
 
@@ -70,9 +68,10 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="zvyxdW" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/zvyxdW/'>zvyxdW</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/zvyxdW#0
+In the above example,every time you double click on the “Increament” button the “ng-dblclick” event is getting fired and the count gets updated by '+1' which is seen in the output.
+
 
 #####ng-mousedown
 
@@ -98,9 +97,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="MaZYGE" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/MaZYGE/'>MaZYGE</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/MaZYGE#0
+In the above example,every time when the user depresses the mouse button. the “ng-mousedown” event is getting fired and the count gets updated by '+1' which is seen in the output.
 
 #####ng-mouseup
 
@@ -126,9 +125,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="VvqYBO" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/VvqYBO/'>VvqYBO</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/VvqYBO#0
+In the above example,every time when the user releases the mouse button. the “ng-mouseup” event is getting fired and the count gets updated by '+1' which is seen in the output.
 
 #####ng-mouseenter
 
@@ -154,9 +153,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="WQLbYp" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/WQLbYp/'>WQLbYp</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/WQLbYp#0
+The mouseenter event is fired when a pointing device (usually a mouse) is moved over the element.So the count gets updated by '+1' whenever mouse points in to the increament button which is seen in the output.
 
 #####ng-mouseleave
 
@@ -182,9 +181,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="rOoaPK" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/rOoaPK/'>rOoaPK</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/rOoaPK#0
+The mouseleave event is fired when a pointing device (usually a mouse) is moved off the element.So the count gets updated by '+1' whenever mouse points off to the increament button which is seen in the output.
 
 #####ng-mousemove
 
@@ -210,9 +209,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="epbmoK" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/epbmoK/'>epbmoK</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/epbmoK#0
+The mousemove event is fired when a pointing device (usually a mouse) is moved across the element.So the count gets updated by '+1' whenever mouse moves across the increament button which is seen in the output.
 
 #####ng-mouseover
 
@@ -239,9 +238,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="BovygQ" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/BovygQ/'>BovygQ</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/BovygQ#0
+The mouseover event is fired when a pointing device (usually a mouse) is moved onto the element.So the count gets updated by '+1' whenever mouse moves onto the increament button which is seen in the output.
 
 #####ng-keydown
 
@@ -267,10 +266,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="PPXqYG" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/PPXqYG/'>PPXqYG</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/PPXqYG#0
-
+The keydown event is fired when a key is pressed down.So the count gets updated by '+1' whenever a  key is pressed or say a text in entered in the box.
 
 #####ng-keyup
 
@@ -296,9 +294,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="gaZpOM" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/gaZpOM/'>gaZpOM</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/gaZpOM#0
+The keyup event is fired when a key is released.So the count gets updated by '+1' whenever a  key is released or say a text in entered in the box.
 
 #####ng-keypress
 
@@ -325,9 +323,9 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="dYwoPb" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/dYwoPb/'>dYwoPb</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/dYwoPb#0
+The keypress event is fired when a key is pressed down and that key normally produces a character value.So the count gets updated by '+1' whenever a  key is pressed down in the box.
 
 #####ng-change
 
@@ -366,7 +364,7 @@ as attribute:
 <p data-height="268" data-theme-id="0" data-slug-hash="qOLdZe" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/qOLdZe/'>qOLdZe</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Code-Snippet:
+######Explanation:
 
-http://codepen.io/walkingtree/pen/qOLdZe#0
+The ngChange expression is only evaluated when a change in the input value causes a new value to be committed to the model.
 
