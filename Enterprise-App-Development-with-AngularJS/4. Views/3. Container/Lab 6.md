@@ -16,7 +16,7 @@ Typical HTML container elements are:
 
 The first thing we will do is to add the Bootstrap CDN and a link to jQuery.
 
-Next, we put all the HTML elements in the <body> element inside a container (<div class="container">):
+Next, we put all the HTML elements in the <body> element inside a container ( < div class="container" > ):
 
 ####Examples:
 
