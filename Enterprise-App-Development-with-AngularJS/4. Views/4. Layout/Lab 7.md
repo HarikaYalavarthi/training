@@ -25,10 +25,10 @@ To make our layout change depending upon the device screen size, there are other
 |Layout-lg|Sets the layout on devices between 960px and 1200px wide(tablets in landscape).|
 |Layout-gt-lg|Sets the layout on devices grater than 1200px wide(computers and large screens).|
 
-* layout-margin  adds margin around each flex child. It also adds a margin to the layout container itself. 
+* `layout-margin`  adds margin around each flex child. It also adds a margin to the layout container itself. 
 
-* layout-padding adds padding inside each flex child. It also adds padding to the layout container itself. 
+* `layout-padding` adds padding inside each flex child. It also adds padding to the layout container itself. 
 
-* layout-fill forces the layout element to fill its parent container.
+* `layout-fill` forces the layout element to fill its parent container.
 
-* layout-wrap allows flex children to wrap within the container if the elements use more than 100%. 
+* `layout-wrap` allows flex children to wrap within the container if the elements use more than 100%. 
