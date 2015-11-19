@@ -6,15 +6,15 @@ The ngStyle directive allows you to set CSS style on an HTML element conditional
 
 as attribute:
 
-<ANY
+`<ANY
 	ng-style="expression">
 ...
-</ANY>
+</ANY>`
 
 
 as CSS class:
 
-<ANY class="ng-style: expression;"> ... </ANY> 
+`<ANY class="ng-style: expression;"> ... </ANY> `
 
 ####Arguments:
 
