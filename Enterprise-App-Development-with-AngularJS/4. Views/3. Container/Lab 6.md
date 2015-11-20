@@ -26,4 +26,4 @@ Next, we put all the HTML elements in the <body> element inside a container ( < 
 ####Explanation:
 
 In the above code we can see that the `<div>` container element contains a h1 tag  i.e a header and 4 p tags i.e. paragraphs inside it.
-So, the <div> tag here acts as a container.
+So, the `<div>` tag here acts as a container.
