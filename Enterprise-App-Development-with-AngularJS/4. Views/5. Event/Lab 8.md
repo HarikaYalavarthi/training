@@ -1,4 +1,3 @@
-####Overview:
 
 You attach an event listener to an HTML element using one of the following AngularJS event listener directives:
 * ng-click
