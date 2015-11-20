@@ -33,20 +33,19 @@ as attribute:
 |----|----|----|
 |ngClick|expression|Expression to evaluate upon click.(Event object is available as $event)|
 
-######Example:
 
 <p data-height="268" data-theme-id="0" data-slug-hash="WQLbrQ" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/WQLbrQ/'>WQLbrQ</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Explanation:
+####Explanation:
 
 In the above example,every time you click on the “Increament” button the “ng-Click” event is getting fired and the count gets updated by '+1' which is seen in the output.
 
-#####ng-Dblclick:
+####ng-Dblclick:
 
 The ngDblclick directive allows you to specify custom behavior on a dblclick event.
 
-######Usage:
+####Usage:
 
 as attribute:
 
@@ -56,28 +55,26 @@ as attribute:
 </ANY>`
 
 
-######Arguments:
+####Arguments:
 
 |Param|	Type|	Details|
 |----|----|----|
 |ngDblclick|expression|Expression to evaluate upon click.(Event object is available as $event)|
 
 
-######Example:
-
 <p data-height="268" data-theme-id="0" data-slug-hash="zvyxdW" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/zvyxdW/'>zvyxdW</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Explanation:
+####Explanation:
 
 In the above example,every time you double click on the “Increament” button the “ng-dblclick” event is getting fired and the count gets updated by '+1' which is seen in the output.
 
 
-#####ng-mousedown
+####ng-mousedown
 
 The ngMousedown directive allows you to specify custom behavior on mousedown event.
 
-######Usage:
+####Usage:
 
 as attribute:
 
@@ -86,26 +83,25 @@ as attribute:
 ...
 </ANY>`
 
-######Arguments:
+####Arguments:
 
 |Param|	Type|	Details|
 |----|----|----|
 |ngMousedown|expression|Expression to evaluate upon mousedown.(Event object is available as $event)|
 
-######Example:
 
 <p data-height="268" data-theme-id="0" data-slug-hash="MaZYGE" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/MaZYGE/'>MaZYGE</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-######Explanation:
+####Explanation:
 
 In the above example,every time when the user depresses the mouse button. the “ng-mousedown” event is getting fired and the count gets updated by '+1' which is seen in the output.
 
-#####ng-mouseup
+####ng-mouseup
 
 The ngMouseup directive allows you to specify custom behavior on mouseup event.
 
-######Usage:
+####Usage:
 
 as attribute:
 
@@ -120,7 +116,6 @@ as attribute:
 |----|----|----|
 |ngMouseup|expression|Expression to evaluate upon mouseup.(Event object is available as $event)|
 
-######Example:
 
 <p data-height="268" data-theme-id="0" data-slug-hash="VvqYBO" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/VvqYBO/'>VvqYBO</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
@@ -148,7 +143,6 @@ as attribute:
 |----|----|----|
 |ngMouseenter|expression|Expression to evaluate upon mouseenter.(Event object is available as $event)|
 
-######Example:
 
 <p data-height="268" data-theme-id="0" data-slug-hash="WQLbYp" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/WQLbYp/'>WQLbYp</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
