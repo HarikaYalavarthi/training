@@ -19,8 +19,7 @@ as CSS class:
 
 |Param|	Type|	Details|
 |----|----|----|
-|ngStyle|expression|Expression which evals to an object whose keys are CSS style names and values for those CSS Keys.
-Since some CSS style names are not valid keys for an object,they must be quoted.See the 'background-color' style in the example below.|
+|ngStyle|expression|Expression which evals to an object whose keys are CSS style names and values for those CSS Keys.Since some CSS style names are not valid keys for an object,they must be quoted.See the 'background-color' style in the example below.|
 
 
 <p data-height="268" data-theme-id="0" data-slug-hash="ojmZZd" data-default-tab="result" data-user="walkingtree" class='codepen'>See the Pen <a href='http://codepen.io/walkingtree/pen/ojmZZd/'>ojmZZd</a> by Walking Tree (<a href='http://codepen.io/walkingtree'>@walkingtree</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
