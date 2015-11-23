@@ -8,8 +8,10 @@ The layout system is based upon element attributes rather than CSS classes. Attr
 
 Use the layout attribute on an element to arrange its children horizontally in a row (layout="row") or vertically in a column (layout="column"). Row layout is the default if you specify the layout attribute without a value.
 
-######Row	Items arranged horizontally. max-height = 100% and max-width is the width of the items in the container.
-######Column   Items arranged vertically. max-width = 100% and max-height is the height of the items in the container.
+######Row -
+Items arranged horizontally. max-height = 100% and max-width is the width of the items in the container.
+######Column - 
+Items arranged vertically. max-width = 100% and max-height is the height of the items in the container.
 
 ####Layout-Options:
 
