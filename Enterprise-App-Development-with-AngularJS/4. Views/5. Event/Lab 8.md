@@ -1,5 +1,5 @@
 
-You attach an event listener to an HTML element using one of the following AngularJS event listener directives:
+You attach an event listener to an HTML element using one of the following AngularJS event listener <a class="x-grid-item"  href='/slidedeck/#1. Overview/2 Core-Concepts/5. Directive' target="_blank">directives</a>:
 * ng-click
 * ng-dbl-click
 * ng-mousedown
