@@ -1,11 +1,11 @@
 Prerequisites
 -------------
 
-Protractor is a [Node.js](http://nodejs.org/) program. To run, you will need to have Node.js installed. You will download Protractor package using [npm](https://www.npmjs.org/), which comes with Node.js. Check the version of Node.js you have by running `node --version`. It should be greater than v0.10.0.
+Protractor is a [Node.js](http://nodejs.org/) program. To run, Node.js should be installed. Download Protractor package will be downloaded using [npm](https://www.npmjs.org/), which comes with Node.js. Check the version of Node.js have been running `node --version`. It should be greater than v0.10.0.
 
-By default, Protractor uses the [Jasmine](http://jasmine.github.io/) test framework for its testing interface. This tutorial assumes some familiarity with Jasmine, and we will use version 2.3.
+By default, Protractor uses the [Jasmine](http://jasmine.github.io/) test framework for its testing interface. This tutorial assumes some familiarity with Jasmine, and will use version 2.3.
 
-This tutorial will set up a test using a local standalone Selenium Server to control browsers. You will need to have the [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) installed to run the standalone Selenium Server. Check this by running `java -version` from the command line.
+This tutorial will set up a test using a local standalone Selenium Server to control browsers. [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) needed is installed to run the standalone Selenium Server. Check this by running `java -version` from the command line.
 
 Setup
 -----
@@ -24,7 +24,7 @@ Now start up a server with:
 
     webdriver-manager start
 
-This will start up a Selenium Server and will output a bunch of info logs. Your Protractor test will send requests to this server to control a local browser. Leave this server running throughout the tutorial. You can see information about the status of the server at `http://localhost:4444/wd/hub`.
+This will start up a Selenium Server and will output a bunch of info logs. Protractor test will send requests to this server to control a local browser. Leave this server running throughout the tutorial. Information can be seen about the status of the server at `http://localhost:4444/wd/hub`.
 
 Step 0 - write a test
 ---------------------
@@ -60,13 +60,13 @@ exports.config = {
 }
 ```
 
-This configuration tells Protractor where your test files (`specs`) are, and where to talk to your Selenium Server (`seleniumAddress`). It specifies that we will be using Jasmine for the test framework. It will use the defaults for all other configuration. Chrome is the default browser.
+This configuration tells Protractor where test files (`specs`) are, and where to talk to Selenium Server (`seleniumAddress`). It specifies that Jasmine will be used for the test framework. It will use the defaults for all other configuration. Chrome is the default browser.
 
 Now run the test with
 
     protractor conf.js
 
-You should see a Chrome browser window open up and navigate to the Calculator, then close itself (this should be very fast!). The test output should be `1 tests, 1 assertion, 0 failures`. Congratulations, you've run your first Protractor test!
+Chrome browser should be seen window open up and navigate to the Calculator, then close itself (this should be very fast!). The test output should be `1 tests, 1 assertion, 0 failures`. Congratulations, run first Protractor test!
 
 Step 1 - interacting with elements
 ----------------------------------
@@ -88,11 +88,11 @@ describe('Protractor Demo App', function() {
   });
 });
 ```
-This uses the globals `element` and `by`, which are also created by Protractor. The `element` function is used for finding HTML elements on your webpage. It returns an ElementFinder object, which can be used to interact with the element or get information from it. In this test, we use `sendKeys` to type into `<input>`s, `click` to click a button, and `getText` to return the content of an element.
+This uses the globals `element` and `by`, which are also created by Protractor. The `element` function is used for finding HTML elements on webpage. It returns an ElementFinder object, which can be used to interact with the element or get information from it. In this test, use`sendKeys` to type into `<input>`s, `click` to click a button, and `getText` to return the content of an element.
 
-`element` takes one parameter, a Locator, which describes how to find the element. The `by` object creates Locators. Here, we're using three types of Locators:
+`element` takes one parameter, a Locator, which describes how to find the element. The `by` object creates Locators. Here, three types of Locators are used:
 
-  - `by.model('first')` to find the element with `ng-model="first"`. If you inspect the Calculator page source, you will see this is `<input type=text ng-model="first">`.
+  - `by.model('first')` to find the element with `ng-model="first"`. If Calculator page source is inspected, this is seen `<input type=text ng-model="first">`.
   - `by.id('gobutton')` to find the element with the given id. This finds `<button id="gobutton">`.
   - `by.binding('latest')` to find the element bound to the variable `latest`. This finds the span containing `{{latest}}`
 
@@ -101,7 +101,7 @@ Run the tests with
 
     protractor conf.js
 
-You should see the page enter two numbers and wait for the result to be displayed. Because the result is 3, not 5, our test fails. Fix the test and try running it again.
+Page enter two numbers should be seen and wait for the result to be displayed. Because the result is 3, not 5, our test fails. Fix the test and try running it again.
 
 Step 2 - writing multiple scenarios
 -----------------------------------
@@ -140,12 +140,12 @@ describe('Protractor Demo App', function() {
 });
 ```
 
-Here, we've pulled the navigation out into a `beforeEach` function which is run before every `it` block. We've also stored the ElementFinders for the first and second input in nice variables that can be reused. Fill out the second test using those variables, and run the tests again to ensure they pass.
+Here, pulled the navigation out into a `beforeEach` function which is run before every `it` block. Also stored the ElementFinders for the first and second input in nice variables that can be reused. Fill out the second test using those variables, and run the tests again to ensure they pass.
 
 Step 3 - changing the configuration
 -----------------------------------
 
-Now that we've written some basic tests, let's take a look at the configuration file. The configuration file lets you change things like which browsers are used and how to connect to the Selenium Server. Let's change the browser. Change conf.js to the following:
+Now that write some basic tests, let's take a look at the configuration file. The configuration file allows to change things like which browsers are used and how to connect to the Selenium Server. Let's change the browser. Change conf.js to the following:
 
 ```js
 // conf.js
@@ -159,6 +159,6 @@ exports.config = {
 }
 ```
 
-Try running once again. You should see the tests running on Chrome and Firefox simultaneously, and the results reported separately on the command line.
+Try running once again.tests running on Chrome and Firefox should be seen simultaneously, and the results reported separately on the command line.
 
 
