@@ -21,7 +21,7 @@
 
 This will start up a Selenium Server and will output a bunch of info logs. Information can be seen about the status of the server at `http://localhost:4444/wd/hub`.
 
-Steps of Processing
+####Steps of Processing
 * Step 0 - write a test
 Open a new command line or terminal window and create a clean folder for testing.Protractor needs two files to run, a **spec file** and a **configuration file**. 
 
